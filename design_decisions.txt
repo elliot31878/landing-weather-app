@@ -8,3 +8,5 @@
         CSS: Minimal styling to ensure clarity.
         JavaScript: Handles the dynamic loading of the weather app.
         Webpack: Bundles JavaScript files and assets for the landing page, optimizing the build and managing dependencies.
+
+Web site link https://landing-weather-project.web.app/
