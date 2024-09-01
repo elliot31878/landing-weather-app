@@ -4,8 +4,7 @@
   "description": "Landing page project",
   "main": "index.html",
   "scripts": {
-    "start": "live-server --port=8080",
-    "deploy": "npx firebase deploy"
+    "start": "live-server --port=8080"
   },
   "author": "Your Name",
   "license": "ISC",
