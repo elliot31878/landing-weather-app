@@ -7,3 +7,5 @@
   - **CSS**: Minimal styling for clarity.
   - **JavaScript**: Handles the dynamic loading of the weather app.
   - **Webpack**: Bundles JavaScript files and assets for the landing page, optimizing the build and managing dependencies.
+
+Website Link : https://landing-weather-project.web.app/
