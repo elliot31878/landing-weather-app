@@ -1,0 +1,60 @@
+html,
+head,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 1rem;
+
+  gap: 1rem;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+}
+#weather-app-container {
+  margin-top: 20px;
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+  color: white;
+}
+h3 {
+  display: block;
+  font-size: 2rem;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+#load-weather-app {
+  border-radius: 8px;
+  background-color: white;
+  width: 10rem;
+  height: 3rem;
+  margin: 1rem;
+  border: unset;
+  color: black;
+  font-weight: 600;
+}

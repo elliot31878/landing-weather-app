@@ -3,12 +3,13 @@ const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 module.exports = {
     mode: "production",
     entry: [
-        './style.css'
+        './public/style.css',
+        './public/main.js'
     ],
     output: {
         path: __dirname,
         publicPath: '/',
-        filename: 'bundle.js'
+        filename: 'index.js'
     },
     module: {
         rules: [
