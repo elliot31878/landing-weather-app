@@ -18,7 +18,8 @@ loadWeatherAppButton.addEventListener("click", () => {
 function loadReactApp() {
     // Dynamically create a script tag to load the React app's JS bundle
     const script = document.createElement("script");
-    script.src = "https://weather-app-c1a15.web.app/assets/index.js";
+    const weatherScriptURL = "https://weather-app-c1a15.web.app/assets/index.js"
+    script.src = weatherScriptURL;
     script.onload = () => {
         weatherAppContainer.style.display = "block";
     };
@@ -27,7 +28,8 @@ function loadReactApp() {
     // Optionally load the CSS bundle as well
     const link = document.createElement("link");
     link.rel = "stylesheet";
-    link.href = "https://weather-app-c1a15.web.app/assets/index.css";
+    const weatherStyleURL = "https://weather-app-c1a15.web.app/assets/index.css"
+    link.href = weatherStyleURL;
     document.head.appendChild(link);
 
     // Inject the root element for React to mount into
@@ -35,6 +37,7 @@ function loadReactApp() {
     rootElement.id = "root";
     weatherAppContainer.appendChild(rootElement);
 }
+
 // Listen for messages from the React app
 window.addEventListener("message", (event) => {
     if (event.data && event.data.type === "weatherData") {
