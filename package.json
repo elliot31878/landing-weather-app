@@ -5,11 +5,12 @@
   "main": "index.html",
   "scripts": {
     "start": "live-server --port=8080",
-    "deploy": "firebase deploy"
+    "deploy": "npx firebase deploy"
   },
   "author": "Your Name",
   "license": "ISC",
   "devDependencies": {
+    "firebase-tools": "^13.16.0",
     "live-server": "^1.2.1"
   },
   "dependencies": {
